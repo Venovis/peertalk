@@ -44,15 +44,16 @@
 		6A88FA63150D61DE00FC3647 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */; };
 		6ACFD2D6151D36220081ACF5 /* PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFD2D4151D36220081ACF5 /* PTChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACFD2D7151D36220081ACF5 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFD2D5151D36220081ACF5 /* PTChannel.m */; };
+		6E1CFFCB24DA061900D8CCEB /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1CFFCA24DA061900D8CCEB /* Peertalk.h */; };
+		6E1CFFCC24DA061900D8CCEB /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1CFFCA24DA061900D8CCEB /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A761CBD3FF800A3E3F0 /* PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFD2D4151D36220081ACF5 /* PTChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A771CBD3FF800A3E3F0 /* PTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88FA5C150D61DE00FC3647 /* PTProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A781CBD3FF800A3E3F0 /* PTUSBHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88FA5E150D61DE00FC3647 /* PTUSBHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A791CBD3FF800A3E3F0 /* PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFD2D4151D36220081ACF5 /* PTChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A7A1CBD3FF800A3E3F0 /* PTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88FA5C150D61DE00FC3647 /* PTProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A7B1CBD3FF800A3E3F0 /* PTUSBHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88FA5E150D61DE00FC3647 /* PTUSBHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE158A7D1CBD402600A3E3F0 /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE158A7E1CBD402600A3E3F0 /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE158A7F1CBD402600A3E3F0 /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE158A7D1CBD402600A3E3F0 /* PeertalkMac.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* PeertalkMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE158A7E1CBD402600A3E3F0 /* PeertalkMac.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* PeertalkMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A8E1CBD412900A3E3F0 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFD2D5151D36220081ACF5 /* PTChannel.m */; };
 		EE158A8F1CBD412900A3E3F0 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A88FA5D150D61DE00FC3647 /* PTProtocol.m */; };
 		EE158A901CBD412900A3E3F0 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */; };
@@ -129,9 +130,12 @@
 		6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
 		6ACFD2D4151D36220081ACF5 /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
 		6ACFD2D5151D36220081ACF5 /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
-		EE158A5B1CBD3EB600A3E3F0 /* Peertalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Peertalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1CFFBF24D9BC5B00D8CCEB /* libSystem.B.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.B.tbd; path = usr/lib/libSystem.B.tbd; sourceTree = SDKROOT; };
+		6E1CFFC124D9BC7B00D8CCEB /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		6E1CFFCA24DA061900D8CCEB /* Peertalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peertalk.h; sourceTree = "<group>"; };
+		EE158A5B1CBD3EB600A3E3F0 /* PeertalkMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PeertalkMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE158A681CBD3ED700A3E3F0 /* Peertalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Peertalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE158A7C1CBD402600A3E3F0 /* Peertalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peertalk.h; sourceTree = "<group>"; };
+		EE158A7C1CBD402600A3E3F0 /* PeertalkMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeertalkMac.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,20 +173,6 @@
 			files = (
 				6A88FA47150D613800FC3647 /* Cocoa.framework in Frameworks */,
 				6A88FA4A150D613800FC3647 /* libpeertalk.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE158A571CBD3EB600A3E3F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE158A641CBD3ED700A3E3F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +253,7 @@
 				6A88FA44150D613800FC3647 /* peertalkTests.xctest */,
 				6A64AAC6152604D40065BF86 /* Peertalk Example.app */,
 				6A64AAE21526050D0065BF86 /* Peertalk iOS Example.app */,
-				EE158A5B1CBD3EB600A3E3F0 /* Peertalk.framework */,
+				EE158A5B1CBD3EB600A3E3F0 /* PeertalkMac.framework */,
 				EE158A681CBD3ED700A3E3F0 /* Peertalk.framework */,
 			);
 			name = Products;
@@ -272,6 +262,8 @@
 		6A88FA32150D613800FC3647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E1CFFC124D9BC7B00D8CCEB /* libSystem.tbd */,
+				6E1CFFBF24D9BC5B00D8CCEB /* libSystem.B.tbd */,
 				6A4010D815275E9600EF0E92 /* CoreGraphics.framework */,
 				6A4010D615275E5400EF0E92 /* UIKit.framework */,
 				6A2E8E3E15274F8E001B90E4 /* QuartzCore.framework */,
@@ -297,7 +289,8 @@
 			isa = PBXGroup;
 			children = (
 				6A4010D515275E3800EF0E92 /* prefix.pch */,
-				EE158A7C1CBD402600A3E3F0 /* Peertalk.h */,
+				6E1CFFCA24DA061900D8CCEB /* Peertalk.h */,
+				EE158A7C1CBD402600A3E3F0 /* PeertalkMac.h */,
 				5E2C5023171F46A6008A9752 /* PTPrivate.h */,
 				6ACFD2D4151D36220081ACF5 /* PTChannel.h */,
 				6ACFD2D5151D36220081ACF5 /* PTChannel.m */,
@@ -337,10 +330,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A88FA60150D61DE00FC3647 /* PTProtocol.h in Headers */,
+				6E1CFFCB24DA061900D8CCEB /* Peertalk.h in Headers */,
 				6A88FA62150D61DE00FC3647 /* PTUSBHub.h in Headers */,
 				6ACFD2D6151D36220081ACF5 /* PTChannel.h in Headers */,
 				5E2C5024171F46A6008A9752 /* PTPrivate.h in Headers */,
-				EE158A7D1CBD402600A3E3F0 /* Peertalk.h in Headers */,
+				EE158A7D1CBD402600A3E3F0 /* PeertalkMac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +342,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE158A7E1CBD402600A3E3F0 /* Peertalk.h in Headers */,
+				EE158A7E1CBD402600A3E3F0 /* PeertalkMac.h in Headers */,
 				EE158A781CBD3FF800A3E3F0 /* PTUSBHub.h in Headers */,
 				EE158A771CBD3FF800A3E3F0 /* PTProtocol.h in Headers */,
 				EE158A761CBD3FF800A3E3F0 /* PTChannel.h in Headers */,
@@ -359,10 +353,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE158A7F1CBD402600A3E3F0 /* Peertalk.h in Headers */,
 				EE158A7B1CBD3FF800A3E3F0 /* PTUSBHub.h in Headers */,
 				EE158A7A1CBD3FF800A3E3F0 /* PTProtocol.h in Headers */,
 				EE158A791CBD3FF800A3E3F0 /* PTChannel.h in Headers */,
+				6E1CFFCC24DA061900D8CCEB /* Peertalk.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +433,11 @@
 			productReference = 6A88FA44150D613800FC3647 /* peertalkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EE158A5A1CBD3EB600A3E3F0 /* Peertalk */ = {
+		EE158A5A1CBD3EB600A3E3F0 /* PeertalkMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE158A621CBD3EB600A3E3F0 /* Build configuration list for PBXNativeTarget "Peertalk" */;
+			buildConfigurationList = EE158A621CBD3EB600A3E3F0 /* Build configuration list for PBXNativeTarget "PeertalkMac" */;
 			buildPhases = (
 				EE158A561CBD3EB600A3E3F0 /* Sources */,
-				EE158A571CBD3EB600A3E3F0 /* Frameworks */,
 				EE158A581CBD3EB600A3E3F0 /* Headers */,
 				EE158A591CBD3EB600A3E3F0 /* Resources */,
 			);
@@ -452,9 +445,9 @@
 			);
 			dependencies = (
 			);
-			name = Peertalk;
+			name = PeertalkMac;
 			productName = Peertalk;
-			productReference = EE158A5B1CBD3EB600A3E3F0 /* Peertalk.framework */;
+			productReference = EE158A5B1CBD3EB600A3E3F0 /* PeertalkMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE158A671CBD3ED700A3E3F0 /* Peertalk iOS */ = {
@@ -462,7 +455,6 @@
 			buildConfigurationList = EE158A6D1CBD3ED700A3E3F0 /* Build configuration list for PBXNativeTarget "Peertalk iOS" */;
 			buildPhases = (
 				EE158A631CBD3ED700A3E3F0 /* Sources */,
-				EE158A641CBD3ED700A3E3F0 /* Frameworks */,
 				EE158A651CBD3ED700A3E3F0 /* Headers */,
 				EE158A661CBD3ED700A3E3F0 /* Resources */,
 			);
@@ -509,7 +501,7 @@
 				6A88FA43150D613800FC3647 /* peertalkTests */,
 				6A64AAC5152604D40065BF86 /* Peertalk Example */,
 				6A64AAE11526050D0065BF86 /* Peertalk iOS Example */,
-				EE158A5A1CBD3EB600A3E3F0 /* Peertalk */,
+				EE158A5A1CBD3EB600A3E3F0 /* PeertalkMac */,
 				EE158A671CBD3ED700A3E3F0 /* Peertalk iOS */,
 			);
 		};
@@ -972,7 +964,7 @@
 				INFOPLIST_FILE = peertalk/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = me.rsms.peertalk.Peertalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1010,7 +1002,7 @@
 				INFOPLIST_FILE = peertalk/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.rsms.peertalk.Peertalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1140,7 +1132,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE158A621CBD3EB600A3E3F0 /* Build configuration list for PBXNativeTarget "Peertalk" */ = {
+		EE158A621CBD3EB600A3E3F0 /* Build configuration list for PBXNativeTarget "PeertalkMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE158A601CBD3EB600A3E3F0 /* Debug */,
