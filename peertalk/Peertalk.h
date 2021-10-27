@@ -24,3 +24,5 @@ FOUNDATION_EXPORT const unsigned char PeertalkVersionString[];
 #import <Peertalk/PTChannel.h>
 #import <Peertalk/PTProtocol.h>
 #import <Peertalk/PTUSBHub.h>
+
+#pragma clang diagnostic pop
